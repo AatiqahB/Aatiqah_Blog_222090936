@@ -1,3 +1,32 @@
+TERM 2 BLOG ASSIGNMENT
+Aatiqah Benjamin 222090936
+Webframeworks ICE360S
+Lecturer: Joseph Chigbogwu Akwunwa 
+
+Technologies and Frameworks Used:
+For this project, I created a blog using the Laravel framework. To help me create this project, I used the Chirpers layout for the comment section on my blog and referred to the LinkedIn course “Laravel 9.0 Essential Training” by Shruti Balasa. Additionally, I followed the YouTube series “How to Build a Blog with Laravel” by DevMarketer to help me create my blog posts.
+
+For styling, I made use of Tailwind CSS. For elements that I could not style with Tailwind, I added inline CSS and created a CSS file in my public folder to link long CSS codes to my project. I also utilized Laravel’s Blade and Breeze.
+
+Setup and Installation Instructions:
+For this project, I used Xampp, MySQL, GitBash, Laravel, and Visual Studio Code.
+
+How to Use the Blog Platform:
+•	User Registration: From the landing page, users have two options: login and register. Users can register their accounts and then verify them through a link. A challenge I encountered was getting the verification link to send to users’ emails. For demonstration purposes, I used Mailtrap to show that verification works. Another way to access the verification link is by going into the storage/logs/Laravel.log  folder and scrolling to the bottom to find the verification link. The same process is used for password recovery. Once verified, users can log in.
+•	Posting: Once logged in, users can navigate to "Posts" via the "Start posting now" button on the dashboard or through the top navigation element called “Posts.”
+•	Commenting: On the Posts page, users can scroll to the blog posts and click on the titles. At the bottom of a post, there is a comment button that takes users to the comments section, where they can comment, edit, or delete their thoughts.
+•	Administrative Functions: In MyPHPAdministration, admins can delete and edit users or posts.
+
+Challenges:
+
+•	Project Folder: I had to restart my blog numerous times as it would crash, requiring me to start from scratch. This usually happened when I followed some YouTube videos without having the proper setup and installations, causing my GitBash commands to fail and crash my website. I resolved this by importing the working files from my previous attempts into a new file and working from there.
+•	Verification: Users were not receiving the verification link via email, so I set up an account on Mailtrap for email verification to work for demonstration purposes. Another way to access the verification link is by going into the storage/logs/Laravel.log folder and scrolling to the bottom to find the verification link. The same process is used for password recovery. Once verified, users can log in.
+
+Repository link:
+https://github.com/AatiqahB/Aatiqah_Blog_222090936/tree/master
+
+
+<!--Laravel Default README.md-->
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
