@@ -15,7 +15,7 @@ How to Use the Blog Platform:
 •	User Registration: From the landing page, users have two options: login and register. Users can register their accounts and then verify them through a link. A challenge I encountered was getting the verification link to send to users’ emails. For demonstration purposes, I used Mailtrap to show that verification works. Another way to access the verification link is by going into the storage/logs/Laravel.log  folder and scrolling to the bottom to find the verification link. The same process is used for password recovery. Once verified, users can log in.
 •	Posting: Once logged in, users can navigate to "Posts" via the "Start posting now" button on the dashboard or through the top navigation element called “Posts.”
 •	Commenting: On the Posts page, users can scroll to the blog posts and click on the titles. At the bottom of a post, there is a comment button that takes users to the comments section, where they can comment, edit, or delete their thoughts.
-•	Administrative Functions: In MyPHPAdministration, admins can delete and edit users or posts.
+•	Administrative Functions: In PhpMyAdmin,  admins can delete and edit users or posts.
 
 Challenges:
 
